@@ -23,7 +23,10 @@ public class ex6 {
                 res = res*10 + t;
                 tmp = tmp/10;
            }
-           result.add(res);
+        }
+
+        for (int i = 0; i < a; i++) {
+            //소수확인
         }
 
 
