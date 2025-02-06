@@ -2,6 +2,7 @@ package Array;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import java.util.Scanner;
 
 
@@ -46,8 +47,13 @@ public class ex6 {
                 list.add(result.get(i));
             }
         }
-        System.out.print(list);
-
+        //System.out.print(list);
+        for (int i = 0; i < list.size(); i++) {
+            if(i!=list.size()-1)
+                System.out.print(list.get(i) + ", ");
+            else
+                System.out.print(list.get(list.size()-1));
+        }
 
 
 
