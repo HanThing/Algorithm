@@ -8,7 +8,7 @@ public class ex10 {
         String str = sc.next();
         char t = sc.next().charAt(0);
         char[] arr = str.toCharArray();
-        int front=0, rear=0;
+        int front, rear;
 
 
 
